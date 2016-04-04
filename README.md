@@ -6,7 +6,7 @@
 
 PTBalloonView and PTBalloonLabel are the view and label, like balloon.
 It is easy to use this balloon view and label.
-There are balloon inflating and deflating animations to attention.
+And it can be set balloon's inflating and deflating animations.
 
 |PTBalloonView|PTBalloonLabel|
 |---|---|
