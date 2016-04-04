@@ -1,0 +1,6 @@
+framework module PTBalloonView {
+  umbrella header "PTBalloonView-umbrella.h"
+
+  export *
+  module * { export * }
+}

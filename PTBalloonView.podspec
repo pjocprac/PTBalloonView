@@ -9,32 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = "PTBalloonView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PTBalloonView."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "The view and label, like balloon."
   s.description      = <<-DESC
+  PTBalloonView and PTBalloonLabel are the view and label, like balloon.
+  It is easy to use this balloon view and label.
+  There are balloon pumping up and deflating animations to attention.
                        DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PTBalloonView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/pjocprac/PTBalloonView"
   s.license          = 'MIT'
   s.author           = { "Takeshi Watanabe" => "watanabe@tritrue.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PTBalloonView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'PTBalloonView' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

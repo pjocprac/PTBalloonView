@@ -1,0 +1,14 @@
+PODS:
+  - PTBalloonView (0.1.0)
+
+DEPENDENCIES:
+  - PTBalloonView (from `../`)
+
+EXTERNAL SOURCES:
+  PTBalloonView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PTBalloonView: 62558797d0c77c39a96a536bc80aab866a77abb9
+
+COCOAPODS: 0.39.0

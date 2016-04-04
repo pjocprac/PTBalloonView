@@ -1,0 +1,6 @@
+framework module Pods_PTBalloonView_Tests {
+  umbrella header "Pods-PTBalloonView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

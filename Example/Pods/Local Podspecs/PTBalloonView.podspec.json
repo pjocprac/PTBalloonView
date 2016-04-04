@@ -1,0 +1,25 @@
+{
+  "name": "PTBalloonView",
+  "version": "0.1.0",
+  "summary": "A short description of PTBalloonView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PTBalloonView",
+  "license": "MIT",
+  "authors": {
+    "Takeshi Watanabe": "watanabe@tritrue.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PTBalloonView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PTBalloonView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
