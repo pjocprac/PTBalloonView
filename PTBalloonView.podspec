@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   PTBalloonView and PTBalloonLabel are the view and label, like balloon.
   It is easy to use this balloon view and label.
-  There are balloon pumping up and deflating animations to attention.
+  There are balloon inflating and deflating animations to attention.
                        DESC
   s.homepage         = "https://github.com/pjocprac/PTBalloonView"
   s.license          = 'MIT'
