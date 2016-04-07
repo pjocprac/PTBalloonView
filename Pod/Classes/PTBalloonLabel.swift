@@ -190,12 +190,12 @@ public class PTBalloonLabel : PTBalloonView {
         
         realWidth = min(realWidth, maxWidth)
 
-        if let title = self.title {
+        if self.title != nil {
             let fitSize = titleLabel.sizeThatFits(CGSizeMake(realWidth, CGFloat.max))
             titleLabel.frame = CGRectMake(0, 0, realWidth, fitSize.height)
         }
         
-        if let text = self.text {
+        if self.text != nil {
             let fitSize = textLabel.sizeThatFits(CGSizeMake(realWidth, CGFloat.max))
             textLabel.frame = CGRectMake(0,
                                          titleLabel.bounds.height == 0 ? 0 : titleLabel.bounds.height + 4,

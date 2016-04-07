@@ -128,7 +128,7 @@ public class PTBalloonView : UIView {
 
     private func setupView(targetFrame: CGRect) {
         // if not have superview, return
-        guard let superview = self.superview else {
+        if self.superview == nil {
             return
         }
 
@@ -401,7 +401,6 @@ public class PTBalloonView : UIView {
             case .Bottom: self.transform = CGAffineTransformMakeTranslation(0, screenRect.height - self.frame.origin.y + pinSize)
             case .Left  : self.transform = CGAffineTransformMakeTranslation(-(self.frame.origin.x + self.frame.width + pinSize), 0)
             case .Right : self.transform = CGAffineTransformMakeTranslation(screenRect.width - self.frame.origin.x + pinSize, 0)
-            default     : break
             }
 
             UIView.animateWithDuration(
@@ -597,7 +596,6 @@ public class PTBalloonView : UIView {
                     case .Bottom: self.transform = CGAffineTransformMakeTranslation(0, screenRect.height - self.frame.origin.y + pinSize)
                     case .Left  : self.transform = CGAffineTransformMakeTranslation(-(self.frame.origin.x + self.frame.width + pinSize), 0)
                     case .Right : self.transform = CGAffineTransformMakeTranslation(screenRect.width - self.frame.origin.x + pinSize, 0)
-                    default     : break
                     }
                 },
                 completion: completionHandler)
