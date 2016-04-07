@@ -79,7 +79,7 @@ Balloon's pumping up and deflating animations can be selected.
 |---|---|---|
 |![FadeShift](https://raw.githubusercontent.com/pjocprac/PTBalloonView/master/Images/style_fadeshift.gif "FadeShift")|![Revolution](https://raw.githubusercontent.com/pjocprac/PTBalloonView/master/Images/style_revolution.gif "Revolution")|![RevolutionShift](https://raw.githubusercontent.com/pjocprac/PTBalloonView/master/Images/style_revolutionshift.gif "RevolutionShift")|
 
-|Slide (can chose direction)|
+|Slide (can choose direction)|
 |---|
 |![Slide](https://raw.githubusercontent.com/pjocprac/PTBalloonView/master/Images/style_slide.gif "Slide")|
 
