@@ -37,7 +37,7 @@ Add button to balloon label.
 // add button with title
 public func addButton(title title: String?, type: PTBalloonLabelButtonType = .Normal, handler: (()->Void)? = nil) -> Self
 ```
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |title|String|Yes|Title of button.|
 |type|[PTBalloonLabelButtonType](#PTBalloonLabelButtonType)|No|Button type. If `.Close` is set, button behave close button.|
@@ -47,7 +47,7 @@ public func addButton(title title: String?, type: PTBalloonLabelButtonType = .No
 // add button with UIButton
 public func addButton(button button: UIButton, type: PTBalloonLabelButtonType = .Normal, handler: (()->Void)? = nil) -> Self
 ```
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |button|UIButton|Yes|User's predefined button.|
 
