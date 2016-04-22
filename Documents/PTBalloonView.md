@@ -63,6 +63,7 @@ Inflate balloon view.
 ```swift
 public func inflate (targetView: UIView, inView: UIView? = nil, completion: ((Bool)->Void)? = nil) -> Void
 ```
+
 |Argument|Type|Mandatory|Descrption||
 |:---|:---|:---:|:---|
 |targetView|UIView|Yes|Target View which is pointed at by the balloon view.|
@@ -89,6 +90,7 @@ public func inflateAnimation (
     duration: NSTimeInterval = 0.6,
     spring: Bool = true) -> Self
 ```
+
 |Argument|Type|Mandatory|Descrption||
 |:---|:---|:---:|:---|
 |animation|PTBalloonViewAnimationStyle|No|Balloon view's inflate animation style.|
@@ -105,6 +107,7 @@ public func deflateAnimation (
     duration: NSTimeInterval = 0.4,
     spring: Bool = true) -> Self
 ```
+
 |Argument|Type|Mandatory|Descrption||
 |:---|:---|:---:|:---|
 |animation|PTBalloonViewAnimationStyle|No|Balloon view's deflate animation style.|
