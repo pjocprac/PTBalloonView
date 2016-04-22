@@ -64,7 +64,7 @@ Inflate balloon view.
 public func inflate (targetView: UIView, inView: UIView? = nil, completion: ((Bool)->Void)? = nil) -> Void
 ```
 
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |targetView|UIView|Yes|Target View which is pointed at by the balloon view.|
 |inView|UIView|No|The view which the balloon view will be added to, if not specified, the balloon view will be added to root view of targetView (usually UIWindow).|
@@ -76,7 +76,7 @@ Deflate balloon view.
 ```swift
 public func deflate (completion: ((Bool)->Void)? = nil) -> Void
 ```
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |completion|((Bool)->Void)|No|The completion handler, which will be executed at the balloon view will be deflated.|
 
@@ -91,7 +91,7 @@ public func inflateAnimation (
     spring: Bool = true) -> Self
 ```
 
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |animation|PTBalloonViewAnimationStyle|No|Balloon view's inflate animation style.|
 |targetAnimation|PTBalloonViewTargetAnimationStyle|No|Target view's animation style.|
@@ -108,7 +108,7 @@ public func deflateAnimation (
     spring: Bool = true) -> Self
 ```
 
-|Argument|Type|Mandatory|Descrption||
+|Argument|Type|Mandatory|Descrption|
 |:---|:---|:---:|:---|
 |animation|PTBalloonViewAnimationStyle|No|Balloon view's deflate animation style.|
 |duration|NSTimeInterval|No|Animation duration.|
